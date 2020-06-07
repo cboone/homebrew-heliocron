@@ -1,8 +1,8 @@
 class Heliocron < Formula
   desc "Delays execution of other programs relative to sunrise and sunset"
   homepage "https://github.com/mfreeborn/heliocron"
-  url "https://github.com/mfreeborn/heliocron/archive/v0.3.3.zip"
-  sha256 "134634ea86ff8f38b7d50f89ad6eebc1ff597ac6c8ae91f6cc4c255081610e33"
+  url "https://github.com/mfreeborn/heliocron/archive/v0.3.3.tar.gz"
+  sha256 "84e751a9f6ed73b0bd33349f65d28dfd22512104750cdc6f9be99a370061baa2"
 
   depends_on "rust" => :build
 
