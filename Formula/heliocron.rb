@@ -13,8 +13,8 @@ class Heliocron < Formula
   end
 
   test do
-    assert_match "sunset: 2020-05-01 20:00:26 -07:00", pipe_output(
-      "#{bin}/heliocron --latitude 37.783N --longitude 122.417W --date 2020-05-01 report",
+    assert_match "Sunset is at:             2026-01-02 01:01:18 +00:00", pipe_output(
+      "#{bin}/heliocron --latitude 37.783N --longitude 122.417W --date 2026-01-01 --time-zone \"+00:00\" report",
     )
   end
 end
