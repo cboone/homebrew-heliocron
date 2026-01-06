@@ -1,10 +1,9 @@
 class Heliocron < Formula
   desc "Executes tasks relative to sunset, sunrise and other such solar events"
   homepage "https://github.com/mfreeborn/heliocron"
-  version "0.5.0"
-  url "https://github.com/mfreeborn/heliocron/archive/refs/tags/v#{version}.tar.gz"
+  url "https://github.com/mfreeborn/heliocron/archive/refs/tags/v0.5.0.tar.gz"
   sha256 "d06e7d7625bf72002ba4b5164c743b5d625a0e0b08dacdc57148f513546c4c3f"
-  head "https://github.com/mfreeborn/heliocron.git"
+  license "MIT"
 
   depends_on "rust" => :build
 
